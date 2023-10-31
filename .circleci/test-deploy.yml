@@ -48,4 +48,3 @@ workflows:
             - orb-tools/pack
             - command-test
           context: orb-publish
-          filters: *release-filters
