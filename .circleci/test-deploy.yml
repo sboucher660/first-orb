@@ -40,7 +40,7 @@ workflows:
       - orb-tools/pack:
           filters: *release-filters
       - orb-tools/publish:
-          orb_name: natcoder9/first-orb
+          orb_name: loganlemire/first-orb
           vcs_type: github
           pub_type: production
           # Ensure this job requires all test jobs and the pack job.
